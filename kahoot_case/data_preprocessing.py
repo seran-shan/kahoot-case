@@ -11,11 +11,11 @@ def load_data():
     - country_mapping: DataFrame containing country mapping data.
     - educational_expenditure: DataFrame containing educational expenditure data.
     """
-    cwur = pd.read_csv('/mnt/data/cwurData.csv')
-    shanghai = pd.read_csv('/mnt/data/shanghaiData.csv')
-    times = pd.read_csv('/mnt/data/timesData.csv')
-    country_mapping = pd.read_csv('/mnt/data/school_and_country_table.csv')
-    educational_expenditure = pd.read_csv('/mnt/data/education_expenditure_supplementary_data.csv')
+    cwur = pd.read_csv('data/raw/cwurData.csv')
+    shanghai = pd.read_csv('data/raw/shanghaiData.csv')
+    times = pd.read_csv('data/raw/timesData.csv')
+    country_mapping = pd.read_csv('data/raw/school_and_country_table.csv')
+    educational_expenditure = pd.read_csv('data/raw/education_expenditure_supplementary_data.csv')
     
     return cwur, shanghai, times, country_mapping, educational_expenditure
 

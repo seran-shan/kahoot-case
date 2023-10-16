@@ -7,9 +7,6 @@ This repository contains the data analysis for a case study on World University 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Files Structure](#files-structure)
-- [Key Findings](#key-findings)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
